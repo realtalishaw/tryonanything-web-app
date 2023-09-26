@@ -1,0 +1,14 @@
+{
+  "resourceName": "tryonanythingStorage",
+  "policyUUID": "15baec51",
+  "bucketName": "tryonanythingec3912ee2f864a729db0e9a6ef6e3b7e",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

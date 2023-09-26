@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tryonanything-dev-181628-authRole",
+      "UnauthRoleArn": "arn:aws:iam::438420706355:role/amplify-tryonanything-dev-181628-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::438420706355:role/amplify-tryonanything-dev-181628-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tryonanything-dev-181628-deployment",
+      "UnauthRoleName": "amplify-tryonanything-dev-181628-unauthRole",
+      "StackName": "amplify-tryonanything-dev-181628",
+      "StackId": "arn:aws:cloudformation:us-east-1:438420706355:stack/amplify-tryonanything-dev-181628/57948e10-5cba-11ee-952f-0e26f9e7020d",
+      "AmplifyAppId": "d2dgv9rc55x3uh"
+    },
+    "categories": {
+      "auth": {
+        "tryonanythinga305f439": {}
+      },
+      "storage": {
+        "tryonanythingStorage": {}
+      }
+    }
+  }
+}
