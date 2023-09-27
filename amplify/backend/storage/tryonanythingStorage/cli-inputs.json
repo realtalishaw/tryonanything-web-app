@@ -2,13 +2,17 @@
   "resourceName": "tryonanythingStorage",
   "policyUUID": "15baec51",
   "bucketName": "tryonanythingec3912ee2f864a729db0e9a6ef6e3b7e",
-  "storageAccess": "auth",
-  "guestAccess": [],
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
   "authAccess": [
     "CREATE_AND_UPDATE",
     "READ",
     "DELETE"
   ],
-  "triggerFunction": "NONE",
+  "triggerFunction": "S3Trigger8db2bd40",
   "groupAccess": {}
 }

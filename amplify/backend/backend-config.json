@@ -1,6 +1,6 @@
 {
   "auth": {
-    "tryonanythinga305f439": {
+    "tryonanythingf4beb453": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -16,9 +16,7 @@
           "EMAIL"
         ],
         "socialProviders": [],
-        "usernameAttributes": [
-          "EMAIL"
-        ],
+        "usernameAttributes": [],
         "verificationMechanisms": [
           "EMAIL"
         ]
@@ -27,9 +25,44 @@
       "service": "Cognito"
     }
   },
+  "function": {
+    "S3Trigger8db2bd40": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_S3Trigger8db2bd40_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "S3Trigger8db2bd40"
+        }
+      ]
+    },
+    "AMPLIFY_function_S3Trigger8db2bd40_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "S3Trigger8db2bd40"
+        }
+      ]
+    }
+  },
   "storage": {
     "tryonanythingStorage": {
-      "dependsOn": [],
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn",
+            "LambdaExecutionRole"
+          ],
+          "category": "function",
+          "resourceName": "S3Trigger8db2bd40"
+        }
+      ],
       "providerPlugin": "awscloudformation",
       "service": "S3"
     }

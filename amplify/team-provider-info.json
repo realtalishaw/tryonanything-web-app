@@ -13,10 +13,17 @@
     },
     "categories": {
       "auth": {
-        "tryonanythinga305f439": {}
+        "tryonanythinga305f439": {},
+        "tryonanythingf4beb453": {}
       },
       "storage": {
         "tryonanythingStorage": {}
+      },
+      "function": {
+        "S3Trigger8db2bd40": {
+          "deploymentBucketName": "amplify-tryonanything-dev-181628-deployment",
+          "s3Key": "amplify-builds/S3Trigger8db2bd40-49374752504773516a76-build.zip"
+        }
       }
     }
   }
